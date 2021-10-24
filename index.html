@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    main{
+    background-color: gray;
+    }
+    .phase{
+    text-align: center;
+    }
+    .header{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          
+    }
+    #personal{
+    font-size: 30px;
+    }
+    @media (min-width: 600px){
+
+        .phase{
+            text-align: center;
+        }
+        .form{
+            text-align: center;
+            width: 600px;    
+        }
+        #details{
+            align-self: center;
+        }
+    }
+    button{
+        border-radius: 4px;
+    }
+    legend{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    fieldset p{
+        font-size: 15px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    #details{
+        align-items: center;
+    }
+    </style>
+<body>
+   <main>
+       <div class="phase">
+       <div class="header">
+           <h3>Kaduna State Census </h3>
+        <p>The population census is to collect the datas of individuals<br>
+        in kaduna state.The analysis of this data will hepl the state <br>government
+         to have the statistics of young,old and aged-people,<br>and it is also
+        aimed at get the population of unemployed in the state.</p>
+       </div>
+       <div class="form"> 
+      <h4>Fill the form below correct</h4>
+      <form action="https//:www.kadunastate/portal.com">
+    <div id="details">
+        <p>provide your personal details</p>
+    <label for="firstname" id="personal">
+        <input type="text" name="name" placeholder="First Name:" required>
+    </label>
+    <label for="lastname" id="personal">
+        <input type="text" name="name" placeholder="Last Name:" required>
+    </label>
+    <label for="email" id="personal">
+        <input type="text" name="email" placeholder="Email:"  required>
+    </label>
+    <label for="number" id="personal">
+        <input type="number" name="number" placeholder="Phone No:"  required>
+    </label>
+    
+    <label for="contact" id="personal">
+        <input type="text" name="contact" placeholder="Contact Address:"  required>
+    </label>
+    <label for="nin" id="personal">
+        <input type="number" name="nin" placeholder="NIN:"  required>
+    </label>
+    </div>
+</div>
+</div>
+    <fieldset>
+        <legend>Choose the correct option</legend>
+     <p>work status:</p>
+        <label for="student">Student
+     <input type="radio" value="student" name="student-unemployed-self employed-employed">
+     </label>
+     <label for="unemployed">Unemployed
+     <input type="radio" value="unemployed" name="student-unemployed-self employed-employed">
+     </label>
+     <label for="self-employed">Self-Employed
+     <input type="radio" value="self-employed" name="student-unemployed-self employed-employed">
+     </label>
+     <label for="employed">Employed
+     <input type="radio" value="employed" name="student-unemployed-self employed-employed">
+     </label>
+     <p>Indigene of Kaduna State:</p>
+     <label for="yes">Yes
+    <input type="radio" value="yes" name="yes-no">
+     </label>
+     <label for="no">No
+    <input type="radio" value="no" name="yes-no">
+     </label>
+     <p>Age bracket</p>
+     <label for="teen">Below 18 yrs
+         <input type="radio" name="teen-young-old-aged" value="teen">
+     </label>
+     <label for="young">18-30 yrs
+         <input type="radio" name="teen-young-old-aged" value="young">
+     </label>
+     <label for="old">30-60 yrs
+         <input type="radio" name="teen-young-old-aged" value="old">
+     </label>
+     <label for="teen">above 60 yrs
+         <input type="radio" name="teen-young-old-aged" value="aged">
+     </label>
+     <p>select the rite option</p>
+     <select name="" id="">
+      <option value="Gender">Gender</option>
+      <option value="male">male</option>
+      <option value="female">female</option>
+     </select>
+     <p>For the Employed,indicate your occupation or occupations</p>
+     <label for="Pastor">Pastor
+         <input type="checkbox" value="pastor">
+     </label>
+     <label for="Doctor">Doctor
+         <input type="checkbox" value="Doctor">
+     </label>
+     <label for="lawyer">Lawyer
+         <input type="checkbox" value="lawyer">
+     </label>
+     <label for="Engineer">Engineer
+         <input type="checkbox" value="Engineer">
+     </label>
+     <label for="Scientist">Scientist
+         <input type="checkbox" value="Scientist">
+     </label>
+     <label for="teacher">Teacher
+         <input type="checkbox" value="teacher">
+     </label>
+     <label for="Tailor">Tailor
+         <input type="checkbox" value="Tailor">
+     </label>
+     <label for="lecturer">Lecturer
+         <input type="checkbox" value="lecturer">
+     </label>
+     <label for="Sailor">Sailor
+         <input type="checkbox" value="Sailor">
+     </label>
+     <label for="Civil">Civil-Servant
+         <input type="checkbox" value="Civil">
+     </label>
+     <label for="politician">Politician
+         <input type="checkbox" value="politician">
+     </label>
+     <p>for self-employed,give little description of your work</p>
+    <textarea name="self" id="self" cols="30" rows="10">Description</textarea>
+    </fieldset>
+    <button>Button</button>
+    </form>
+   </main>
+</body>
+</html>
